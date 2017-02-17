@@ -1,6 +1,13 @@
 body {
   margin: 0;
 }
+h1.sitetitle {
+  padding: 2em 0 1.1em 0;
+  border: 0;
+}
+h1.sitetitle img {
+  max-width: 319px;
+}
 .markdown-body {
   max-width: 960px;
   margin: 0 auto;
