@@ -7,4 +7,5 @@ eventurl = "http://www.zusaar.com/event/2397003"
 eventdate = "2014/01/10 19:30 - 21:00"
 eventtheme = ["フリー（なんでもあり）"]
 eventlog = "http://togetter.com/li/617340"
+done = true
 +++

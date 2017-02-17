@@ -7,4 +7,5 @@ eventurl = "http://www.zusaar.com/event/7397003"
 eventdate = "2014/06/06 19:30 - 21:00"
 eventtheme = ["ソーシャル、SNS"]
 eventlog = ""
+done = true
 +++

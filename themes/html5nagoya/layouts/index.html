@@ -1,20 +1,41 @@
 {{ partial "header.html" . }}
 
-      <h1>HTML5NAGOYA</h1>
-      <p><img src="/images/html5nagoya-image01.jpg" alt="HTML5NAGOYA - 勉強会の様子" /></p>
+      <h1 class="sitetitle"><img src="/images/header_logo.png" alt="HTML5NAGOYA"></h1>
 
       <h2>概要</h2>
 
-      <p>HTML5NAGOYA は HTML / CSS / JavaScript を始めとした Web のフロントエンドの技術全般を学び合う勉強会です。 毎回講師を呼んで座学を行うスタイルではなく、お互いがアウトプットすることで共にスキルアップしていくことを目指しています。 皆さんのアウトプットで成り立っている会です。お誘い合わせのうえご参加ください！</p>
+      <p><strong>HTML5NAGOYA</strong> は HTML / CSS / JavaScript を始めとした <strong>Web のフロントエンドの技術全般を学び合う勉強会</strong>です。</p>
+      <p>発表者が発表する形式の勉強会や、各々がやりたいことを持ち寄って行うもくもく会、ハンズオン形式の勉強会など、様々な勉強会を開催しています。</p>
+      <p><strong>お互いがアウトプットすることで共にスキルアップしていくことを目指しています。</strong> 皆さんのアウトプットで成り立っている会です。お誘い合わせのうえご参加ください！</p>
 
-      <h3>勉強会のコンセプト</h3>
+      <h2>開催予定のイベント</h2>
 
+{{- range .Data.Pages }}
+  {{- if not .Params.done }}
+      <h3>{{ .Title }}</h3>
       <ul>
-        <li>新しい技術なども取り組みつつ、前からある考え方・手法も大切に</li>
-        <li>自分の知ってることを、知ろうとしている人たちに、分かりやすく伝えよう</li>
+        <li>イベントページ: <a href="{{ .Params.eventurl }}">{{ .Params.eventurl }}</a></li>
+        <li>開催日時: {{ .Params.eventdate }}</li>
+        <li>イベントテーマ: {{ delimit .Params.eventtheme ", " }}</li>
       </ul>
+  {{- end }}
+{{- end }}
 
-      <h3>勉強会情報の追い方</h3>
+      <h2>開催済みイベント</h2>
+
+{{- range .Data.Pages }}
+  {{- if .Params.done }}
+      <h3>{{ .Title }}</h3>
+      <ul>
+        <li>イベントページ: <a href="{{ .Params.eventurl }}">{{ .Params.eventurl }}</a></li>
+        <li>開催日時: {{ .Params.eventdate }}</li>
+        <li>イベントテーマ: {{ delimit .Params.eventtheme ", " }}</li>
+        {{- if ne .Params.eventlog "" }}<li>当日まとめ: <a href="{{ .Params.eventlog }}">{{ .Params.eventlog }}</a></li>{{- end }}
+      </ul>
+  {{- end }}
+{{- end }}
+
+      <h2>勉強会情報の追い方</h2>
 
       <p>Googleグループ（メーリングリスト）に、今後の勉強会情報を流します。 発表したい方、情報共有やディスカッションしたい方も、是非ともこちらに投稿ください。 勉強会の内容に大きく逸れない限り、イベント告知などもどんどんしていただいて構いません。</p>
       <p>どなたでもご自由にメーリングリスト（Googleグループ）に登録いただけます。 勉強会の開催情報もすべてこちらに展開されますので、ぜひともチェックしてください！</p>
@@ -30,18 +51,6 @@
       </ul>
 
       <p>※どうしてもメールでの登録が難しい方は、<a href="https://groups.google.com/forum/feed/html5nagoya/topics/rss_v2_0.xml?num=50">RSS</a> でも情報提供されておりますのでご活用ください。</p>
-
-      <h2>開催情報</h2>
-
-{{- range .Data.Pages }}
-      <h3>{{ .Title }}</h3>
-      <ul>
-        <li>イベントページ: <a href="{{ .Params.eventurl }}">{{ .Params.eventurl }}</a></li>
-        <li>開催日時: {{ .Params.eventdate }}</li>
-        <li>イベントテーマ: {{ delimit .Params.eventtheme ", " }}</li>
-        {{- if ne .Params.eventlog "" }}<li>当日まとめ: <a href="{{ .Params.eventlog }}">{{ .Params.eventlog }}</a></li>{{- end }}
-      </ul>
-{{- end }}
 
       <h2>お問い合わせ</h2>
 

@@ -7,4 +7,5 @@ eventurl = "http://www.zusaar.com/event/1727004"
 eventdate = "2013/12/05 19:30 - 21:00"
 eventtheme = ["コーディングルール（規約）"]
 eventlog = "http://togetter.com/li/599565"
+done = true
 +++

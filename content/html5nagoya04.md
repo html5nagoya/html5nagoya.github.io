@@ -7,4 +7,5 @@ eventurl = "http://www.zusaar.com/event/684003"
 eventdate = "2013/05/23 19:30 - 21:00"
 eventtheme = ["JavaScript（for beginners）"]
 eventlog = "http://togetter.com/li/507389"
+done = true
 +++

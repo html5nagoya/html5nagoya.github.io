@@ -7,4 +7,5 @@ eventurl = "https://atnd.org/events/57646"
 eventdate = "2014/11/01 14:00 - 17:00"
 eventtheme = ["Docker ハンズオン"]
 eventlog = ""
+done = true
 +++

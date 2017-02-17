@@ -7,4 +7,5 @@ eventurl = ""
 eventdate = ""
 eventtheme = []
 eventlog = ""
+done = false
 +++

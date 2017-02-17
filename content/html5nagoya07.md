@@ -7,4 +7,5 @@ eventurl = "http://www.zusaar.com/event/984003"
 eventdate = "2013/09/10 19:30 - 21:00"
 eventtheme = ["スマートフォン・タブレット"]
 eventlog = "http://togetter.com/li/562196"
+done = true
 +++

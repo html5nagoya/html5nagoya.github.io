@@ -7,4 +7,5 @@ eventurl = "http://www.zusaar.com/event/11737003"
 eventdate = "2014/11/14 19:30 - 21:00"
 eventtheme = ["ライトニングトーク大会"]
 eventlog = ""
+done = true
 +++

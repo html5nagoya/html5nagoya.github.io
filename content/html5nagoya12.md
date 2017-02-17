@@ -7,4 +7,5 @@ eventurl = "http://www.zusaar.com/event/4687007"
 eventdate = "2014/04/25 19:30 - 21:00"
 eventtheme = ["デザイン・UI"]
 eventlog = ""
+done = true
 +++

@@ -7,4 +7,5 @@ eventurl = "http://www.zusaar.com/event/539004"
 eventdate = "2013/03/19 19:30 - 21:00"
 eventtheme = ["マークアップ"]
 eventlog = ""
+done = true
 +++

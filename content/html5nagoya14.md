@@ -7,4 +7,5 @@ eventurl = "http://www.zusaar.com/event/10507004"
 eventdate = "2014/08/08 19:30 - 21:00"
 eventtheme = ["フロントエンド入門編"]
 eventlog = "https://togetter.com/li/703901"
+done = true
 +++

@@ -7,4 +7,5 @@ eventurl = "http://www.zusaar.com/event/1060004"
 eventdate = "2013/10/15 19:30 - 21:00"
 eventtheme = ["API（Application Programming Interface）"]
 eventlog = ""
+done = true
 +++
