@@ -1,5 +1,10 @@
 +++
-author     = "html5nagoya"
-layout     = "post"
-draft      = true
+author = "html5nagoya"
+date = ""
+title = ""
+draft = false
+eventurl = ""
+eventdate = ""
+eventtheme = []
+eventlog = ""
 +++
