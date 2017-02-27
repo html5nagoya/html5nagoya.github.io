@@ -14,7 +14,11 @@
   {{- if not .Params.done }}
       <h3>{{ .Title }}</h3>
       <ul>
+{{- if eq .Params.eventurl "" }}
+        <li>イベントページ: もう少々お待ちください</li>
+{{- else }}
         <li>イベントページ: <a href="{{ .Params.eventurl }}">{{ .Params.eventurl }}</a></li>
+{{- end }}
         <li>開催日時: {{ .Params.eventdate }}</li>
         <li>イベントテーマ: {{ delimit .Params.eventtheme ", " }}</li>
       </ul>
