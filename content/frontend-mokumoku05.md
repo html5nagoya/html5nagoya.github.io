@@ -7,5 +7,5 @@ eventurl = "https://html5nagoya.connpass.com/event/59425/"
 eventdate = "2017/07/05 19:00 - 21:00"
 eventtheme = ["もくもく会"]
 eventlog = ""
-done = false
+done = true
 +++
